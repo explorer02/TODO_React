@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li:hover {
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+div {
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#root {
+  border: 1px solid #f00;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+button {
+  background-color: white;
+  outline: none;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: #DDD;
+  margin: 5px;
+  padding: 5px;
+}
+
+input[type="text"] {
+  padding: 2px;
+  outline: 1px solid blue;
+  font-size: larger;
+}
